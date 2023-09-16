@@ -1,38 +1,126 @@
+body {
+  background-image: url('/public/cc.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+ 
 .App {
-  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px; 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+.container {
+ 
+  margin-top: 50px;
 }
+ 
+ 
+ 
+ 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.row {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px dashed #333;
+  border-radius: 10px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h4, h5 {
+  text-align: center;
+  margin-bottom: 20px;
+ 
+  
+}
+ 
+
+#wallet-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: bold;
+  color: rgb(247, 8, 163);
+  overflow: hidden;            
+  word-wrap: break-word;       
+  box-sizing: border-box;        
+}
+
+
+ 
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+   border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+ 
+ 
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px dashed #696863;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+ 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(255, 0, 17);
+}
+
+.pause-button {
+  background-color: #a5b005c0;  
+  color: #ff0000;  
+  border: none;  
+  transition: 0.3s;  
+
+  /* Hover effect */
+  &:hover {
+    background-color: #c00682;  
+    transform: scale(1.05);  
   }
-  to {
-    transform: rotate(360deg);
+
+ 
+  &:active {
+    background-color: #9e055d;  
+    transform: scale(0.95);  
   }
 }
+.pause-button{
+  background-color: orange;
+}
+.disabled-button {
+  background-color: #ff0000;  
+  cursor: not-allowed; 
+}
+
+.disabled-button:hover {
+  background-color: #ff3434;  
+  transform: none;  
+}
+ 
+
+form {
+  background-color: #faf3e0;  
+  padding: 20px; 
+  border-radius: 50px; 
+  border: 2px dashed #000000;
+  box-shadow: 0 4px 8px rgba(47, 206, 143, 0.1);  
+  color: rgb(88, 1, 65);
+}
+
+ 
