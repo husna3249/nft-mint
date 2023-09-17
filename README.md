@@ -1,7 +1,6 @@
 # 🎨 NFT Minting Smart Contract
 ![image](https://github.com/husna3249/nft-mint/assets/131730258/6e22b139-6ffb-4927-b29b-633049aca0ee)
 
- 
 ## Available Scripts
 
 In the project directory, you can run:
